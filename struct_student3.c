@@ -290,7 +290,7 @@ float calculateCGPA(struct Marks marks, int numSubjects) {
 
     float cgpa = 0.0;
     if (totalCredits != 0) {
-        cgpa = (totalGradePoints*10) / (totalCredits*10.0); 
+        cgpa = (totalGradePoints*10) / (totalCredits); 
     }
 
     return cgpa;
